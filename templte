@@ -21,18 +21,12 @@
           <th>Meal</th>
           <th>Price</th>
         </tr>
+        {% for meal in meals %}
         <tr>
-          <td>Vegetarian Lasagna</td>
-          <td>$10</td>
+          <td>{{ meal.name }}</td>
+          <td>{{ meal.price }}</td>
         </tr>
-        <tr>
-          <td>Chicken Parmesan</td>
-          <td>$12</td>
-        </tr>
-        <tr>
-          <td>Beef Stew</td>
-          <td>$15</td>
-        </tr>
+        {% endfor %}
       </table>
     </section>
     <section id="about">
@@ -41,11 +35,11 @@
     </section>
     <section id="contact">
       <h1>Contact Us</h1>
-      <p>Phone: 555-555-5555</p>
-      <p>Email: info@mealprepbusiness.com</p>
+      <p>Phone: {{ contact.phone }}</p>
+      <p>Email: {{ contact.email }}</p>
     </section>
     <footer>
-      <p>Copyright © 2021 Meal Prep Business</p>
+      <p>Copyright © {{ current_year }} Meal Prep Business</p>
     </footer>
   </body>
 </html>
