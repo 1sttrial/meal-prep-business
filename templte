@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meal Prep Business</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="menu">
+      <h1>Menu</h1>
+      <table>
+        <tr>
+          <th>Meal</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Vegetarian Lasagna</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Chicken Parmesan</td>
+          <td>$12</td>
+        </tr>
+        <tr>
+          <td>Beef Stew</td>
+          <td>$15</td>
+        </tr>
+      </table>
+    </section>
+    <section id="about">
+      <h1>About Us</h1>
+      <p>Welcome to Meal Prep Business, where we provide delicious and healthy meals for busy individuals. Our mission is to make meal prep easy and convenient for our customers.</p>
+    </section>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: info@mealprepbusiness.com</p>
+    </section>
+    <footer>
+      <p>Copyright © 2021 Meal Prep Business</p>
+    </footer>
+  </body>
+</html>
