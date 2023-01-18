@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meal Prep Business</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h1>Healthy Meals Delivered to Your Door</h1>
+      <button>See our menu</button>
+    </section>
+    <section id="about">
+      <h2>About Our Meal Prep Business</h2>
+      <p>We are a local meal prep business that specializes in delivering healthy, homemade meals to our customers. All of our meals are made with fresh, locally-sourced ingredients and are designed to help you reach your health and fitness goals.</p>
+    </section>
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <ul>
+        <li>Grilled Chicken with Quinoa and Roasted Vegetables</li>
+        <li>Salmon with Sweet Potato and Asparagus</li>
+        <li>Vegetarian Chili with Brown Rice</li>
+      </ul>
+      <button>Place an order</button>
+    </section>
+    <section id="order">
+      <h2>Place an Order</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="meal">Select a Meal:</label>
+        <select id="meal" name="meal">
+          <option value="chicken">Grilled Chicken with Quinoa and Roasted Vegetables</option>
+          <option value="salmon">Salmon with Sweet Potato and Asparagus</option>
+          <option value="veggie">Vegetarian Chili with Brown Rice</option>
+        </select>
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+    <section id="testimonials">
+      <h2>What Our Customers are Saying</h2>
+      <blockquote>
+        <p>"I've been using this meal prep service for a few months now and I've never felt better! The meals are always
